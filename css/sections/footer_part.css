@@ -1,0 +1,148 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_info_left {
+  max-width: 600px;
+}
+
+.footer .footer_info_left h2 {
+  padding-bottom: 60px;
+  font-family: 'Carto';
+  font-size: 20px;
+}
+
+.footer_info_left p {
+  font-family: 'Eaves';
+  font-size: 21px;
+}
+
+.footer_info_left p:last-child {
+  font-family: 'Eaves';
+  font-size: 16px;
+}
+
+.footer_column h3 {
+  padding-bottom: 50px;
+  font-family: 'Carto';
+  font-size: 20px;
+}
+
+.subscribe {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+  
+.subscribe input {
+  width: 396px;
+  height: 37px;
+  font-family: 'Eaves';
+  font-size: 18px;
+  border: 1px solid var(--dark-mode);
+}
+
+.subscribe button {
+  font-size: 18px;
+  font-family: 'Eaves';
+  width: 100px;
+  height: 37px;
+  background-color: var(--light-mode);
+  color: var(--dark-mode);
+}
+
+.footer_column {
+  padding-right: 80px;
+  text-align: center;
+}
+
+  .footer_column p {
+    font-size: 21px;
+    font-family: 'Eaves';
+    padding-bottom: 20px;
+  }
+  
+  .footer_social {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer_social i {
+    padding-bottom: 20px;
+    font-size: 25px;
+    padding-right: 15px;
+  }
+  
+  .footer_info_right {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer_container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .footer_info_left,
+  .footer_info_right {
+    flex: 1;
+  }
+  
+  hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #ccc;
+    margin-bottom: 30px;
+  }
+  
+  .footer .copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer .copyright p {
+    text-decoration: none;
+    margin-right: 20px;
+  }
+
+  .footer .copyright .underline{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  @media(max-width:1224px){
+    .footer .footer_container{
+      max-width: 400px;
+      margin: auto;
+      padding-left: 10px;
+
+    }
+  }
+
+
+  @media(max-width:800px){
+    .footer .footer_container{
+      max-width: 400px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+    }
+    .footer_container {
+      display: flex;
+      justify-content: flex-start;
+    }
+    .footer_info_left .subscribe button{
+      margin-top: 30px;
+    }
+
+    .footer_info_right{
+      margin: auto;
+      padding-top: 60px;
+    }
+    .footer_info_right .footer_column i{
+      display: none;
+    }
+  }

@@ -1,0 +1,134 @@
+.exclusive_offers{
+    padding-left: 80px;
+    padding-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.exclusive_offers .terms{
+    color: var(--akira-hover);
+}
+
+.exclusive_offers .terms:hover{
+    color: var(--akira-hover);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.exclusive_offers .updated p{
+    font-family: 'Eaves';
+    font-size: 20px;
+}
+
+.exclusive_offers .updated h2{
+    font-family: 'Carto';
+    font-size: 60px;
+}
+
+.updated, .updated_2{
+    flex-basis: 50%;
+}
+
+
+.updated_2 .join_section{
+    padding-top: 13px;
+}
+
+.updated_2 .join_section input{
+    width: 320px;
+    height: 33px;
+    font-family: 'Eaves';
+    font-size: 18px;
+}
+
+.updated_2 .join_section button{
+    cursor: pointer;
+    font-family: 'Eaves';
+    width: 100px;
+    height: 37px;
+    font-size: 18px;
+}
+
+.updated_2 p:first-child{
+    font-family: 'Eaves';
+    font-size: 21px;
+}
+
+.updated_2 p:last-child{
+    padding-top: 13px;
+    font-family: 'Eaves';
+    font-size: 15px;
+}
+
+@media(max-width:1080px){
+
+    .exclusive_offers .updated {
+        max-width: 400px;
+    }
+
+    .exclusive_offers .updated h2{
+        font-size: 45px;
+    }
+}
+
+@media(max-width:1024px){
+
+    .exclusive_offers .updated {
+        max-width: 300px;
+    }
+
+    .exclusive_offers .updated h2{
+        font-size: 40px;
+    }
+}
+
+@media(max-width:908px){
+    .updated_2 .join_section button{
+        margin-top: 20px;
+    }
+    .exclusive_offers .updated h2{
+        font-size: 40px;
+    }
+}
+
+@media(max-width:800px){
+    .exclusive_offers{
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        margin: auto;
+        max-width: 400px;
+    }
+    .exclusive_offers .updated{
+        max-width: 500px;
+    }
+
+    .exclusive_offers .updated p{
+        padding-bottom: 20px;
+        font-size: 18px;
+    }
+    
+    .exclusive_offers .updated h2{
+        font-size: 40px;
+    }
+
+    .updated_2 p:first-child{
+        font-size: 19px;
+    }
+
+    .updated_2 p{
+        margin-top: 20px;
+    }
+
+    .updated_2 .join_section input{
+        width: 180px;
+        margin-top: 20px;
+    }
+
+    .updated_2 .join_section button{
+        height: 33px;
+        margin-top: 20px;
+    }
+}

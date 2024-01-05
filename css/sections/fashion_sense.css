@@ -1,0 +1,136 @@
+.sense_fashion{
+  padding-top: 200px;
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100vh; /* Ajusta la altura según tus necesidades */
+}
+
+.sense_info{
+  width: 700px;
+  margin-bottom: 20px;
+}
+
+.sense_fashion .sense_info h2{
+  font-family: 'Carto';
+  font-size: 60px;
+}
+
+.sense_fashion .sense_info p{
+  font-size: 21px;
+  padding-top:50px;
+  padding-bottom: 50px;
+  font-family: 'Eaves';
+}
+
+.slide_automatic p{
+  padding-top: 20px;
+  margin-right: 100px;
+  text-align: left;
+}
+
+.slide_automatic {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.slides {
+  display: flex;
+  animation: slideAnimation 30s infinite linear;
+}
+
+.slide {
+  flex: 0 0 33.33%;
+  margin-right: 20px;
+}
+
+.slide:last-child {
+  margin-right: 0;
+}
+
+.slide i {
+  font-size: 100px;
+}
+
+.slide h3 {
+  padding-top: 20px;
+  font-size: 33px;
+}
+
+.slide p {
+  font-size: 18px;
+}
+
+@keyframes slideAnimation {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+@media (max-width: 1300px){
+  .slide_automatic {
+    margin-left: 0px;
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 950px){
+
+  .sense_fashion .sense_info{
+    max-width: 500px;
+    margin: auto;
+  }
+
+  .sense_fashion .sense_info h2{
+    font-size: 50px;
+  }
+
+  .sense_fashion .sense_info p{
+    font-size: 19px;
+  }
+
+  .slide_automatic {
+    width: 50%;
+  }
+
+}
+
+@media (max-width: 800px) {
+
+  .sense_fashion{
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+
+  .sense_fashion .sense_info{
+    width: 80%;
+  }
+
+  .sense_fashion .sense_info h2{
+    font-size: 40px;
+  }
+
+  .sense_fashion .sense_info p{
+    font-size: 19px;
+  }
+
+  .sense_fashion .slide_automatic .slides i{
+    font-size: 60px;
+  }
+
+  .sense_fashion .slide_automatic .slides h3{
+    font-size: 25px;
+  }
+  .sense_fashion .slide_automatic .slides p{
+    font-size: 18px;
+  }
+
+}

@@ -1,0 +1,35 @@
+.trusted{
+    padding-top: 200px;
+    padding-left: 80px;
+}
+
+.trusted h3{
+    font-size: 25px;
+    font-family: 'Carto';
+    align-items: center;
+    text-align: center;
+}
+
+#brands{
+    padding-top: 100px;
+}
+
+#brands #logos_brands img{
+    width: 400px;
+}
+
+@media only screen and (max-width: 950px){
+    .slide_automatic {
+    width: 100%;
+    }
+}
+@media (max-width: 800px){
+    .trusted{
+        max-width: 400px;
+        margin: auto;
+        padding-left: 0px;
+    }
+    #brands{
+        margin-right: 0px;
+    }
+}

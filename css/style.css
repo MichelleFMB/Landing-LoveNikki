@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* other css file imports */
+@import url("sections/header.css");
+@import url("sections/hero.css");
+@import url("sections/fashion_part.css");
+@import url("sections/fashion_sense.css");
+@import url("sections/collection_part.css");
+
+@import url("sections/discover_part.css");
+
+@import url("sections/offer_part.css"); 
+@import url("sections/get_in_touch_part.css"); 
+@import url("sections/faqs_part.css"); 
+@import url("sections/questions_part.css"); 
+@import url("sections/about_me_part.css"); 
+@import url("sections/trusted_part.css");
+
+@import url("sections/footer_part.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: black;
+  text-decoration: none;
+}
+
+  body {
+    max-width: 1600px;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+  
+  @font-face {
+    font-family: 'Carto';
+    src: url(/fonts/CartoGothicStd-Bold.otf);
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: 'Eaves';
+    src: url(/fonts/FontsFree-Net-MrEavesXLModOT-Reg.ttf);
+  }
+
+  :root {
+    --akira-hover: #AA1D1D;
+    --light-mode: #ffffff;
+    --dark-mode: #252525;
+    --font-mont: 'Montserrat', sans-serif; 
+  }
+  
+  .dark-mode {
+    background-color: var(--dark-mode);
+    color: var(--light-mode);
+  }
+
+  .dark-mode a,
+  .dark-mode span,
+  .dark-mode i,
+  .dark-mode li,
+  .dark-mode h2,
+  .dark-mode p,
+  .dark-mode h3,
+  .dark-mode h4 {
+  color: var(--light-mode);
+  }
+

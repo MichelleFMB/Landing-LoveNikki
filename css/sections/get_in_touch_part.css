@@ -1,0 +1,96 @@
+.get_in_touch{
+    padding-top: 200px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.get_in_touch .get_in_touch_info h2{
+    font-family: 'Carto';
+    font-size: 60px;
+}
+
+.get_in_touch .get_in_touch_info p{
+    font-family: 'Eaves';
+    font-size: 21px;
+}
+
+.get_in_touch .get_in_touch_emailing h4{
+    font-family: 'Carto';
+    font-size: 21px;
+}
+
+.get_in_touch .get_in_touch_emailing p{
+    font-family: 'Eaves';
+    font-size: 20px;
+}
+
+.get_in_touch .get_in_touch_emailing a{
+    text-decoration: underline;
+}
+
+.get_in_touch .get_in_touch_emailing{
+    margin-left: 300px;
+}
+
+.get_in_touch_info, .get_in_touch_emailing {
+    flex-basis: 50%;
+}
+
+.get_in_touch_emailing h4{
+    padding-bottom: 30px;
+}
+
+.get_in_touch_emailing p{
+    padding-bottom: 30px;
+}
+
+.video {
+    padding-top: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .video video {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  @media (max-width:800px){
+    .get_in_touch{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        max-width: 400px;
+        margin-left: 0px;
+        padding-left: 80px;
+    }
+
+    .get_in_touch .get_in_touch_info h2{
+        font-size: 40px;
+    }
+
+    .get_in_touch .get_in_touch_info p{
+        padding-top: 30px;
+        font-size: 19px;
+    }
+    .get_in_touch .get_in_touch_emailing {
+        padding-top: 30px;
+        margin-left: 0px;
+    }
+
+    .get_in_touch .get_in_touch_emailing p{
+        font-size: 19px;
+    }
+
+    .get_in_touch .get_in_touch_emailing h4{
+        font-size: 20px;
+    }
+    .video video {
+        width: 90%;
+        height: 400px;
+        object-fit: cover;
+    }
+}

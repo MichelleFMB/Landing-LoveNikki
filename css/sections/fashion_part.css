@@ -1,0 +1,242 @@
+.fashion_video {
+  position: relative;
+  padding-left: 80px;
+}
+
+.fashion_video video{
+  width: 496px;
+  height: 600px;
+  object-fit: cover;
+}
+    
+      #playButton, #pauseButton{
+        position: absolute;
+        top: 50%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+      }
+      
+      #pauseButton {
+        display: none;
+      }
+    
+      .fashion_part {
+        display: flex;
+        flex-direction: row;
+        padding-top: 200px;
+        padding-left: 80px;
+      }
+
+      /****/
+      
+  .fashion_part > div:last-child {
+    justify-content: flex-end;
+  }
+
+  .fashion_info {
+    text-align: right;
+    max-width: 700px;    
+  }
+
+  .fashion_info p:first-child {
+    font-family: 'Eaves';
+    margin-bottom: 40px;
+    font-size: 20px;
+  }
+  
+  .fashion_info .part_1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 21px;
+    font-family: 'Eaves';
+    padding-left: 105px;
+  }
+  
+
+  .fashion_info h2{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-family: 'Carto';
+  }
+
+  .fashion_info .porcentaje{
+    margin-bottom: 40px;
+
+  }
+
+  .container{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .container .porcentaje p{
+    font-family: 'Eaves';
+  }
+
+  .porcentaje {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: right;    
+  }
+  
+  .porcentaje h2 {
+    order: 1;
+  }
+  
+  .porcentaje p {
+    font-size: 18px;
+    padding-left: 200px;
+    order: 2;
+  }
+  
+  .fashion_info button{
+    width: 120px;
+    height: 55px;
+    font-family: var(--font-mont);
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  .playstore_button{
+    margin-right: 10px;
+  }
+
+  /*Media queries*/
+@media (max-width: 1300px){
+
+  .fashion_part .fashion_info h2{
+    font-size: 40px;
+  }
+
+  .fashion_part .fashion_info .part_1{
+    font-size: 20px;
+  }
+
+  .fashion_part .fashion_info .container .porcentaje p{
+    padding-left: 100px;
+  }
+
+  .fashion_part .fashion_video video{
+    margin: auto;
+    width: 380px;
+    height: 550px;
+    object-fit: cover;
+}
+
+#playButton, #pauseButton{
+  position: absolute;
+  top: 50%;
+  left: 58%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+
+}
+
+@media only screen and (max-width: 950px) {
+  
+  .fashion_part {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 400px;
+    
+  }
+
+  .fashion_info{
+    max-width: 700px;
+    text-align: left;    
+  }
+
+  .fashion_part .fashion_video{
+    padding-bottom: 50px;
+    max-width: 400px;
+    padding-left: 0px;
+}
+
+  .fashion_part .fashion_video video{
+      margin: auto;
+      width: 350px;
+      height: 500px;
+      object-fit: cover;
+  }
+
+  #playButton, #pauseButton{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+  }
+
+  .fashion_part .fashion_info p:first-child{
+    font-size: 18px;
+  }
+
+  .fashion_part .fashion_info h2{
+    font-size: 40px;
+  }
+
+  .fashion_part .fashion_info .part_1{
+    font-size: 19px;
+    padding-left: 0px;
+  }
+
+  .fashion_part .fashion_info .container .porcentaje{
+    padding: 10px;
+  }
+
+  .fashion_part .fashion_info .container .porcentaje:first-child{
+    padding-right: 13px;
+  }
+
+  .fashion_part .fashion_info .container .porcentaje p{
+    padding-left: 0px;
+    text-align: left;
+    font-size:15px;
+  }
+
+
+  .fashion_part .fashion_info .container .porcentaje h2{
+    text-align: left;
+  }
+
+
+
+}
+
+  @media (max-width: 800px) {
+    .fashion_part{
+      margin-left: 144px;
+      margin-right: 0px;
+    }
+
+    #playButton, #pauseButton{
+      position: absolute;
+      top: 45%;
+      left: 52%;
+      transform: translate(-50%, -50%);
+      font-size: 20px;
+    }
+
+    .fashion_info button{
+      font-size: 14px;
+      width: 90px;
+      height: 50px;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .fashion_part{
+      margin-left: 0px;
+      
+    }
+  }
+
+
+  

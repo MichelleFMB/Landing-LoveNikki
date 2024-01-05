@@ -1,0 +1,63 @@
+    .discover_outfit{
+        padding-top: 100px;
+        margin-left: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .discover_info {
+        text-align: center;
+    }
+  
+    .discover_buttons {
+        margin-top: 20px;
+    }
+
+    .discover_outfit .discover_info h2{
+        padding-bottom: 40px;
+        font-size: 60px;
+        font-family: 'Carto';
+    }
+
+    .discover_outfit .discover_info p{
+        padding-bottom: 40px;
+        font-size: 21px;
+        font-family: 'Eaves';
+    }
+
+    .discover_outfit .discover_buttons button{
+        font-family: var(--font-mont);
+        cursor: pointer;
+        font-size: 20px;
+        width: 120px;
+        height: 55px;
+    }
+
+    .discover_buttons .disc_buttton{
+        margin-right: 10px;
+    }
+
+@media (max-width:850px){
+
+    .discover_outfit{
+        margin: auto;
+        max-width: 400px;
+    }
+
+    .discover_outfit .discover_info h2{
+        font-size: 40px;
+    }
+
+    
+    .discover_outfit .discover_info p{
+        font-size: 19px;
+    }
+
+    .discover_outfit .discover_buttons button{
+        font-size: 16px;
+        width: 100px;
+        height: 50px;
+    }
+}
